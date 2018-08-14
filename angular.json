@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "proyectoFingeso": {
+=======
+    "pfing": {
+>>>>>>> 290d0be7fa8116645de8b415e905d2e528cc9cd6
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/proyectoFingeso",
+=======
+            "outputPath": "dist/pfing",
+>>>>>>> 290d0be7fa8116645de8b415e905d2e528cc9cd6
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +58,30 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "proyectoFingeso:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "proyectoFingeso:build:production"
+=======
+            "browserTarget": "pfing:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "pfing:build:production"
+>>>>>>> 290d0be7fa8116645de8b415e905d2e528cc9cd6
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "proyectoFingeso:build"
+=======
+            "browserTarget": "pfing:build"
+>>>>>>> 290d0be7fa8116645de8b415e905d2e528cc9cd6
           }
         },
         "test": {
@@ -95,7 +115,11 @@
         }
       }
     },
+<<<<<<< HEAD
     "proyectoFingeso-e2e": {
+=======
+    "pfing-e2e": {
+>>>>>>> 290d0be7fa8116645de8b415e905d2e528cc9cd6
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -103,11 +127,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
+<<<<<<< HEAD
             "devServerTarget": "proyectoFingeso:serve"
           },
           "configurations": {
             "production": {
               "devServerTarget": "proyectoFingeso:serve:production"
+=======
+            "devServerTarget": "pfing:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "pfing:serve:production"
+>>>>>>> 290d0be7fa8116645de8b415e905d2e528cc9cd6
             }
           }
         },
@@ -123,5 +155,9 @@
       }
     }
   },
+<<<<<<< HEAD
   "defaultProject": "proyectoFingeso"
+=======
+  "defaultProject": "pfing"
+>>>>>>> 290d0be7fa8116645de8b415e905d2e528cc9cd6
 }

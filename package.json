@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "proyecto-fingeso",
+=======
+  "name": "pfing",
+>>>>>>> 290d0be7fa8116645de8b415e905d2e528cc9cd6
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

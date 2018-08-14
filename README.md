@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # ProyectoFingeso
+=======
+# Pfing
+>>>>>>> 290d0be7fa8116645de8b415e905d2e528cc9cd6
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
 
